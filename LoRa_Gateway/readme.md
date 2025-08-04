@@ -3,8 +3,7 @@
 This Arduino sketch sets up a **LoRa Gateway** using an ESP32 (or ESP8266) and an **SX1278 LoRa module**.  
 The device receives LoRa messages and forwards them to the Serial Monitor (USB). It also **flashes an LED on GPIO 2** whenever a **message is received or sent**, using a **non-blocking timer** (no `delay()` used).
 
-![LoRa Gateway Prototype](../docs/images/lora_gateway.jpg)
-
+<img src="../docs/images/lora_gateway.jpg" width="250" alt="LoRa Gateway Prototype">
 ---
 
 ## ✨ Features
